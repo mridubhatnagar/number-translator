@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital@1&display=swap');
+
+html {
+    margin: 0rem;
+}
+
+body {
+    font-family: 'Vollkorn', serif;
+    margin: 0rem 0rem;
+    width: 100%;
+    height: 100vh;
+    font-size: large;
+}
+
+:root {
+    --primary-color: #3B82F6;
+}
+
+.navigation {
+    background-color: var(--primary-color);
+    margin: 0px 0px;
+    width: 100%;
+    padding-top:1em;
+    padding-bottom: 1.5em;
+    height: 5vh;
+}
+
+#nav-heading {
+    text-align: center;
+    font-size: xx-large;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+.textarea {
+    height: 20vh;
+    width: 40vw;
+}
+
+#input-textarea {
+    margin-left: 32%;
+    margin-top: 5%;
+    padding: 10;
+}
+
+#btn-translate {
+    margin-left: 32%;
+    margin-top: 3%;
+    padding: 2em 2em;
+    background-color: var(--primary-color);
+    border-style: none;
+    font-weight: bold;
+    font-size: large;
+}
+
+
+#output-textarea {
+    margin-left: 32%;
+    margin-bottom: 5%;
+}
+
+footer {
+    background-color: var(--primary-color);
+    margin-bottom: 0;
+    margin-top: 1%;
+}
+
+#footer-content {
+    width: 45%;
+    margin: auto;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    padding-bottom: 1.5em;
+}
+
+#footer-heading {
+   text-align: center;
+   margin-block-start: 0px;
+   margin-block-end: 0px;
+   padding-top: 0.2em;
+}
+
+
+
+p {
+    margin-left: 32%;
+}
